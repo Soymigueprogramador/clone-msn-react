@@ -1,0 +1,45 @@
+.sidebar {
+  grid-column: span 4;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.sidebar-title {
+    font: 1.25rem;
+    font-weight: 600;
+}
+
+.sidebar-nick {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+.sidebar-select {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
