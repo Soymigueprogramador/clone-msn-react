@@ -1,0 +1,27 @@
+.mensaje-row {
+    display: flex;
+}
+
+.mensaje-row.mine {
+    justify-content: flex-end;
+}
+
+.message-row.theirs {
+    justify-content: flex-start;
+}
+
+.mensaje-dubble {
+    padding: 8px 12px;
+    max-height: 70%;
+    border-radius: 16px;
+    max-width: 70%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-bubble.mine {
+  background-color: #e0f2fe;
+}
+
+.message-bubble.theirs {
+  background-color: #f3f4f6; 
+}

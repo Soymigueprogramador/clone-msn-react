@@ -1,0 +1,48 @@
+.contact-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    page: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.contact-item:hover {
+    background-color: #f0f9ff;
+}
+
+.contact-item:active {
+    background-color: #e0f2fe;
+}
+
+.status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.status.conectado {
+    background-color: #22c55e;
+}
+
+.status.desconectado {
+    background-color: #eab308;
+}
+
+.status.ocupado {
+    background-color: #ef4444;
+}
+
+.nick {
+    font-weight: 500;
+}
+
+.status-text {
+    margin-left: auto;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
